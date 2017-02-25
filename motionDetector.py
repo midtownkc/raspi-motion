@@ -1,7 +1,11 @@
 #!/usr/bin/python
+# This program uses a motion detector & sends an SMS 
+# If motion is detected by a raspberry pi.
+# Tested on Raspberry Pi 3, No-IR Filter PiCamera 2.0
 # Shout out to Mike Haldas for the sms & imgur code
 # http://bit.ly/2ljRJqc
 # Account credentials masked ~ ~ 
+# maxwell.frederickson@gmail.com
 #
 import pyimgur
 import picamera
