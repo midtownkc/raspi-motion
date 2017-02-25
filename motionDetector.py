@@ -5,7 +5,7 @@
 # Shout out to Mike Haldas for the sms & imgur code
 # http://bit.ly/2ljRJqc
 # Account credentials masked ~ ~ 
-# maxwell.frederickson@gmail.com
+# maxwell [d0t] frederickson [@t] gmail.com for ???'s
 #
 import pyimgur
 import picamera
