@@ -1,7 +1,7 @@
 #!/usr/bin/python
-#Shout out to Mike Haldas for the idea 
-#and much of the code
-#
+# Shout out to Mike Haldas for the sms & imgur code
+# http://bit.ly/2ljRJqc
+# Account credentials masked ~ ~ 
 #
 import pyimgur
 import picamera
