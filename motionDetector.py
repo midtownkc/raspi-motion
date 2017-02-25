@@ -1,6 +1,6 @@
 #!/usr/bin/python
-# This program uses a motion detector & sends an SMS 
-# If motion is detected by a raspberry pi.
+# This program uses a motion detector, takes a pic and
+# sends an SMS if motion is detected.
 # Tested on Raspberry Pi 3, No-IR Filter PiCamera 2.0
 # Shout out to Mike Haldas for the sms & imgur code
 # http://bit.ly/2ljRJqc
@@ -25,11 +25,13 @@ FROM_PHONE ="+15555555555"
 #Message to text:
 TXT_MSG = "Motion Detected."
 
+#Directory to store image
 IMAGE_DIR = "/home/pi/Documents/motion/"
 
 #imgur client setup
 CLIENT_ID = "f5db"
 
+#image file will be overwritten
 IMG = "snap.jpg" 
 IMG_WIDTH = 2592
 IMG_HEIGHT = 1944
@@ -42,8 +44,6 @@ im = pyimgur.Imgur(CLIENT_ID)
 
 #define motion sensor
 pir = MotionSensor(4)
-
-#ry:
 
 while True:
 	if pir.motion_detected:
