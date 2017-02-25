@@ -16,5 +16,6 @@ Account credentials masked ~ ~
 maxwell [d0t] frederickson [@t] gmail.com for ???'s
 
 
-I still need to add a wait between the pictures 
+I still need to add a wait between the pictures
+
 Since Twilio limits to 250 SMS a month -- considering Facebook messsenger to send images.
